@@ -22,7 +22,7 @@ font-size: 24px;
 line-height: 29px;
 
 color: #333333;  
-margin: 0 124px 0 9px;
+margin: 0 89px 0 9px;
 }
 .header-menu-item {
     font-family: Montserrat;
@@ -33,7 +33,7 @@ line-height: 17px;
 /* identical to box height */
 color: #333333;
 list-style-type: none;
-margin: 0 29px 0 0;
+margin: 0 21px 0 0;
 }
 .header-menu-item:hover{
     font-family: Montserrat;
