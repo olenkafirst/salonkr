@@ -1,0 +1,608 @@
+.box {
+    width: 1440px;
+height: 5085px;
+min-width: 320px;
+
+background: #FFFFFF;
+/*border: 1px solid black;*/
+box-sizing: border-box;
+}
+.inf-salon {
+    width: 1440px;
+    height: 591px;
+    padding: 30px 159px 129px 159px;
+    box-sizing: border-box;
+    background-image: url(../projectсалонкрасоты/img/15357251.png)
+}
+.header-salon-name {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+
+color: #333333;  
+margin: 0 124px 0 9px;
+}
+.header-menu-item {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+color: #333333;
+list-style-type: none;
+margin: 0 29px 0 0;
+}
+.header-menu-item:hover{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #00BF78;
+}
+.header-kontakt {
+    width: 167px;
+height: 36px;
+margin: 9px 0 0 136px;
+
+}
+.header-kontak-tel {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 14px;
+/* identical to box height, or 78% */
+
+text-align: center;
+
+color: #333333;
+
+}
+.header-kontak-schedule {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 14px;
+/* identical to box height, or 127% */
+
+text-align: right;
+
+color: #333333;
+}
+.header-inf-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 59px;
+
+/* Main color */
+
+color: #333333;
+margin: 120px 0 16px 0;
+width: 486px;
+height: 118px;
+
+}.header-inf-txt {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #333333;
+margin: 0 0 59px 0;
+}
+.header-inf-button {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+background: #FB9475;
+border-radius: 24px;
+width: 203px;
+height: 48px;
+}
+.header-menu-wrapper {
+    display: flex;
+    justify-content:center;
+    width: 495px;
+height: 17px;
+margin: 9px 0 0 0;
+}
+.header-wrapper {
+    display: flex;
+    justify-content:center;
+}
+.header-inf-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.header-conten-wrapper {
+ display: flex;
+ justify-content: center;
+}
+.header-img-wrapper {
+    position: relative; 
+    width: 524px;
+height: 510px;
+margin: 0 59px 0 0;
+}
+.header-img {
+position: absolute;  
+}
+.header-img-ellipse {
+    position: absolute;
+    top: 145px;
+    left: 41px;
+    z-index: -1;
+}
+.links-social-vk {
+    display:block;
+width: 30px;
+height: 30px;
+background-image: url(../projectсалонкрасоты/img/vk.png);
+background-repeat: no-repeat;
+margin: 0 0 16px 0;
+}
+.links-social-in {
+    display:block;
+width: 30px;
+height: 30px;
+background-image: url(../projectсалонкрасоты/img/in.png);
+margin: 0 0 16px 0;
+}
+.links-social-yut {
+    display:block;
+width: 30px;
+height: 30px;
+background-image: url(../projectсалонкрасоты/img/yut.png);
+}
+.links-social {
+    display: flex;
+    flex-direction: column;
+    margin: 159px 0 0 0;
+}
+.inf-salon-wr {
+    display: flex;
+    flex-direction: row;
+    padding: 95px 169px 95px 169px;
+}
+.inf-wrapper {
+    width: 568px;
+    height: 392px;  
+}
+.inf-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+color: #333333;
+margin: 0;
+}
+.inf-txt-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+color: #333333;
+margin: 30px 0 16px 0;
+}
+.inf-txt {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+color: #333333;
+margin: 0 0 16px 0;
+}
+.inf-lin {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+/* Link */
+color: #278AFF;
+}
+.inf-video {
+    width: 443px;
+height: 295px;
+margin: 90px 0 0 95px;
+border-radius: 9px;
+/*background-image: url(../projectсалонкрасоты/img/infsalon.png);*/
+background-position: center;
+background-size:cover;
+background-repeat:no-repeat;
+position: relative;
+overflow: hidden;
+}
+.inf-video::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 20%;
+}
+.inf-video-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+color: #FFFFFF;
+display: block;
+position: relative;
+
+}
+.inf-video-img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+.inf-video-wrapper {
+     width: 185px;
+height: 92px;
+margin: 96px 0 0 131px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.advantages {
+    width: 100%;
+    padding: 0 169px 103px 169px;
+    display:flex;
+    box-sizing: border-box;
+}
+.advantage {
+    width: 350px;
+height: 176px;
+margin: 0 30px 0 0;
+}
+.advantage:nth-child(3){
+    margin: 0;
+}
+.advantages-img {
+width: 48px;
+height: 48px;
+margin: 0 0 0 142px;
+}
+
+.advantages-img:nth-child(2) {
+    background-image: url(../projectсалонкрасоты/img/cosmetic.svg);
+}
+.advantages-img:nth-child(3) {
+    background-image: url(../projectсалонкрасоты/img/specialist.png);
+}
+.advantages-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+margin: 29px 0 9px 0;
+text-align: center;
+/* identical to box height */
+color: #333333;
+}
+.advantages-txt {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+margin: 0 0 0 0;
+text-align: center;
+color: #333333;
+}
+.popular-service {
+    width: 100%;
+    padding: 0 159px 90px 159px;
+    box-sizing: border-box;
+}
+.popular-service-items {
+display: flex;
+flex-wrap: wrap;
+}
+.popular-service-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+margin: 0 0 36px 0;
+color: #333333;
+}
+.popular-service-item {
+    width: 350px;
+height: 300px;
+margin: 0 30px 90px 0;
+}
+.popular-service-item:nth-child(3){
+    margin: 0 0 90px 0;
+}
+.popular-service-item__title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+margin: 36px 0 9px 0 ;
+color: #333333;
+}
+.popular-service-item__txt {
+    margin: 0 0 9px 0;
+}
+.popular-service-item__btn {
+    width: 112px;
+height: 34px;
+background: #FB9475;
+border-radius: 17px;
+border-color: #FB9475;
+}
+.service-and-price {
+    padding: 0 159px 103px 159px;
+}
+.service-and-price-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+margin: 0;
+color: #333333;
+}
+.service-and-price-menu {
+margin: 30px 0 45px 0;
+}
+.service-and-price-lists {
+    display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0 0 0 0;
+}
+.service-and-price-list {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin: 0 29px 0 0;
+
+color: #333333;
+}
+.service-and-price-list:hover {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #00BF78;
+}
+.service-and-price-inf {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-and-price-inf__item {
+    position: relative;
+    width: 50%;
+}
+.service-and-price-inf__title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #333333;
+}
+.service-and-price-inf__txt {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #333333;
+}
+.service-and-price-inf__price {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: right;
+color: #00BF78;
+position: absolute;
+top: 24px;
+right: 90px;
+display:block;
+}
+.service-and-price-inf__wrapper {
+ 
+}
+.master {
+    width: 100%;
+    padding: 80px 165px 80px 165px;
+    background: #F8F6F7;
+    box-sizing: border-box;
+}
+.master-title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+color: #333333;
+margin: 0;
+}
+.master-txt {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+color: #333333;
+margin: 30px 0 21px 0;
+}
+.master-inf {
+    margin: 0 30px 0 0;
+    position: relative;
+}
+.master-inf__img {
+    display: block;
+}
+.master-inf__img:hover {
+    filter: brightness(30%);
+    box-shadow: 10px 5px 5px black;
+   }
+  
+ .master-inf__img:after {
+       content: 'н';
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.master-inf-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.master-inf__title {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+margin: 24px 0 9px 0;
+color: #333333;
+}
+.master-inf_txt {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+margin: 0 0 24px 0;
+color: #333333;
+}
+.master-inf__experience {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+text-transform: uppercase;
+
+color: #333333;
+}
+.master-inf-zapismaster {
+    display: none;
+    position: absolute;
+    top: 145px;
+    right: 69px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #FFFFFF;
+
+}
+.master-inf:hover .master-inf-zapismaster {
+    display: block;
+}
+@media only screen and (max-width: 768px){
+    .box {
+        max-width: 768px;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    .header-conten-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .inf-salon {
+        width: 100%;
+        padding: 30px 45px 30px 45px;
+    }
+    .header-inf-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-inf-title {
+        text-align: center;
+        margin: 0;
+    }
+    .header-img-wrapper {
+        display: none;
+    }
+    .header-img {
+        display:none;
+    }
+    .header-img-ellipse {
+        display: none;
+    }
+    .links-social {
+        display: flex;
+        flex-direction: row;
+        margin: 45px 0 0 290px;
+    }
+    .links-social-in {
+        margin: 0 0 16px 0;
+    }
+    .links-social-vk {
+        margin: 0 0 16px 0;
+    }
+    .links-social-yut {
+        margin: 0 0 16px 0;
+    }
+    .header-kontakt {
+        margin: 0;
+    }
+    .header-salon-name {
+        margin: 0;
+    }
+    .header-menu {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
