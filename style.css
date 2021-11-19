@@ -1,7 +1,7 @@
 .box {
     width: 1440px;
-height: 5085px;
-min-width: 320px;
+min-height: 5085px;
+
 
 background: #FFFFFF;
 /*border: 1px solid black;*/
@@ -89,7 +89,7 @@ line-height: 59px;
 color: #333333;
 margin: 120px 0 16px 0;
 width: 486px;
-height: 118px;
+min-height: 118px;
 
 }.header-inf-txt {
     font-family: Montserrat;
@@ -115,13 +115,13 @@ color: #FFFFFF;
 background: #FB9475;
 border-radius: 24px;
 width: 203px;
-height: 48px;
+min-height: 48px;
 }
 .header-menu-wrapper {
     display: flex;
     justify-content:center;
     width: 495px;
-height: 17px;
+min-height: 17px;
 margin: 9px 0 0 0;
 }
 .header-wrapper {
@@ -139,7 +139,7 @@ margin: 9px 0 0 0;
 .header-img-wrapper {
     position: relative; 
     width: 524px;
-height: 510px;
+min-height: 510px;
 margin: 0 59px 0 0;
 }
 .header-img {
@@ -281,7 +281,7 @@ align-items: center;
 }
 .advantage {
     width: 350px;
-height: 176px;
+min-height: 176px;
 margin: 0 30px 0 0;
 }
 .advantage:nth-child(3){
@@ -341,7 +341,7 @@ color: #333333;
 }
 .popular-service-item {
     width: 350px;
-height: 300px;
+min-height: 300px;
 margin: 0 30px 90px 0;
 }
 .popular-service-item:nth-child(3){
